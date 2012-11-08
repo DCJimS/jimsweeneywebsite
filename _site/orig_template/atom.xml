@@ -1,0 +1,396 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[]]></title>
+  <link href="/atom.xml" rel="self"/>
+  <link href="/"/>
+  <updated>2012-11-08T08:46:46-05:00</updated>
+  <id>/</id>
+  <author>
+    <name><![CDATA[]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[Which type of Cloud is Right for Me?]]></title>
+    <link href="/2012/08/08/Cloud-CRM-has-taken-over-Business%2C-Will-Government-Follow%3F.html"/>
+    <updated>2012-08-08T00:00:00-04:00</updated>
+    <id>/2012/08/08/Cloud-CRM-has-taken-over-Business,-Will-Government-Follow?</id>
+    <content type="html"><![CDATA[<p>Cloud CRM has Taken Over Business, Will Government Follow?</p>
+
+<p>According to a survey of over 600 organizations issued by Really Simple Systems, 56% of companies are using a Cloud CRM system (compared to 45% this time last year); 72% of respondents claimed to have more confidence generally than a year ago; and 80% of indicated Cloud solutions require less IT support. Only 15% of respondents (commercial) admitted to still having reservations regarding adoption of Cloud systems, a decrease of 8% from last year.s figures. What does all of this mean? The confidence in Cloud solution adoption, at least in the private sector, is clearly on the rise (source: http://www.businesscloud9.com).</p>
+
+<p>In the same article, John Paterson, CEO of Really Simple Systems, said: .With many advantages in the reduction of IT overheads, the removal of any system maintenance burden, low capex and the fact that Cloud systems offer business-critical information readily available at all times, from any computer with internet connectivity to provide more flexible working across the business, Cloud solutions continue to grow in popularity as business requirements and attitudes continue to evolve..</p>
+
+<p>Now let.s look at a major CRM provider. The Salesforce.com web site lists some of the largest names in the private sector as users including: NBCUniversal, KLM, Asics, Wells Fargo, Kimberly-Clark and many, many others. In fact, according to Salesforce, Sales Cloud is the number-one selling application in the world. Practically all of the Fortune 100 companies use this application, if not globally, then in certain office locations. Even GTSI relies on Salesforce.com for our CRM solution.</p>
+
+<p>Aaahh, but when will we see the same kind of adoption from the public sector? Email and collaboration are two of the hottest areas for Cloud growth in the public sector, and yet, in recent months, only two agencies have made decisions concerning transition in these areas (Interior announcing that they will be using Google and DOT announcing that they will go with Microsoft). If we can.t get more agencies to move to the Cloud with email and collaboration, how will they ever join their private sector comrades in successfully using Cloud-based CRM?</p>
+
+<p>The truth is that Cloud First initiatives undertaken by federal agencies so far are even worse than we thought. Of the 78 packages submitted to OMB, which required agencies to document their Cloud First initiatives, only two stated that they will be using Cloud for test and development, which everyone in industry considers the poster child for public IaaS Cloud. Once again I ask: If we cannot get agencies to move to test and development in the Cloud, how will we get them to move more serious applications like CRM to the public Cloud?</p>
+
+<p>My recommendation is that OMB take a tough stance on these agencies and enforces the Cloud First policy by making agencies re-submit their budgets with a more aggressive look into the use of Cloud. This seems to be the only way that we can get agencies to save money and improve services in an age of looming budget cuts. True, Cloud is not the be-all, end-all of IT. No one should go into the Cloud thinking that it can solve all of their IT woes; it can.t. But Cloud is a useful tool that should be evaluated for services in this age of pending budget cuts . We have seen too many examples of how Cloud has helped agencies save money and increase services delivery.</p>
+
+<p>Thanks for reading.</p>
+
+<p><em>Follow me on twitter at @GTSI_CTO</em></p>]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[AWS goes down? Let's back up and look at the facts!]]></title>
+    <link href="/2012/07/16/AWS-goes-down%3F-Lets-Back-Up-and-Look-at-the-Facts.html"/>
+    <updated>2012-07-16T00:00:00-04:00</updated>
+    <id>/2012/07/16/AWS-goes-down?-Lets-Back-Up-and-Look-at-the-Facts</id>
+    <content type="html"><![CDATA[<p>OK. The bashing of Amazon Web Services (AWS) after one of their Northern Virginia data centers went down as a result of major storms in the DC area a week ago is almost over. Now it is time to look at the facts.</p>
+
+<p>Did the data center lose power in the storm and go down? Yes, it did, along with hundreds of thousands of other facilities/homes. But let.s look at the issues. As I have blogged about many times before and discuss thoroughly in my book .Get Your Head in the Cloud: Unraveling the Mystery for Public Sector,. many Cloud providers are designed around their data centers not going down. Ever. Take for example, Terremark. You can visit their impressive facility in Culpeper, Virginia (with an appointment and a good reason, of course), where you will see multiple generators and numerous gas storage tanks. You will hear about the contracts they have (with SLA.s ) to deliver fuel in time to keep those generators running in case of power failure. That is not how AWS is structured.</p>
+
+<p>AWS is designed specifically to absorb a failure in one or more of their data centers. Let me recap for a second. AWS is divided into regions (there are two in the U.S., appropriately called U.S. east and U.S. west). Within each region are multiple zones. Assuming that you have architected your application correctly, when one zone fails, virtual machines in another zone pick up the slack. However, many newcomers to Cloud don.t understand this critical piece of information. Therefore, they do not architect and design their application correctly. I cannot tell you how many times I say this to potential customers: .If you move your standard three tier application from your single data center into one zone of the AWS Cloud, you have accomplished absolutely nothing in terms of taking advantage of the flexibility, availability and redundancy of Cloud..</p>
+
+<p>That.s why our Technology Leadership Seminar on Making Cloud a Reality this week (July 18th at the Ronald Reagan Building) will answer some tough questions like:</p>
+
+<ol>
+<li>
+<p>How do I purchase Cloud?</p>
+</li>
+
+<li>
+<p>What applications should I move to the Cloud and why?</p>
+</li>
+
+<li>
+<p>What do I do if I am unhappy with my Cloud provider?</p>
+</li>
+</ol>
+
+<p>I suggest you register for this event today.</p>
+
+<p>Now, before I close, I will tell you that AWS did in fact have trouble with their control plane that fateful Friday, meaning that communications between the failed zone (or data center) and other working zones were disrupted. And for that, no one can take the blame except AWS. There will be lessons learned, to be sure, and I know AWS will make changes to improve that part of their service, but knowing why it is OK for an AWS zone to go offline is what you really need to know. This will enable you to better architect and design your application to take maximum advantage of this redundancy, availability and flexibility. I hope to see you on the 18th!</p>
+
+<p>Thanks for reading.</p>
+
+<p>Follow me on twitter @GTSI_CTO.</p>]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Listening to Government Workers Could Save Agency Budgets!]]></title>
+    <link href="/2012/07/03/Listening-to-Government-Worker-Demands-Could-Save-Agency-Budgets.html"/>
+    <updated>2012-07-03T00:00:00-04:00</updated>
+    <id>/2012/07/03/Listening-to-Government-Worker-Demands-Could-Save-Agency-Budgets</id>
+    <content type="html"><![CDATA[<p>In Steven VanRoekel.s latest blog post, http://www.whitehouse.gov/blog/2012/06/21/hitting-ground-running-digital-strategy, he announced the formation of a Digital Services Innovation Center and said a new advisory group has begun working on a bring-your-own-device (BYOD) policy for federal employees.</p>
+
+<p>In his post, Mr. VanRoekel described the Digital Services Innovation Center as a .virtual hub. designed to operationalize the principle of .build once, use many times,. supported by agencies across government, to incubate and accelerate innovative digital services.</p>
+
+<p>Second, Mr. VanRoekel convened the first meeting of the Digital Services Advisory Group which will help steer implementation of the Digital Government Strategy, prioritize Innovation Center activities, and recommend government-wide best practices, guidance, and standards. He said that the Advisory Group has already begun to work with the CIO Council and Federal Web Managers Council on two early deliverables: guidance and best practices on allowing employees to use their personal mobile devices for work (known as, .BYOD.), as well as agency-wide governance models for digital services.</p>
+
+<p>Why is this important? At the same time as his announcement, Meritalk announced the results of their new poll that clearly shows government workers want the latest and greatest technology at work, just like they have in their personal lives (http://www.meritalk.com/mmi). According to the poll, 67% of Federal employees wish that the technology issued to them at work could keep up with the changes in technology in their personal lives. The survey indicated that many Federal employees have already adopted a wide array of technology tools for use in their personal lives . 99% use email, 81%use Web mail, and at least 93% bank or buy items online.</p>
+
+<p>Even age does not appear to be the primary variable for technology adoption; as more Feds age 56 to 66 use video conferencing/chat than the 35 to 55 age group and 76%have been going online for news and other related material. The problem gets worse the younger the employee: for Feds 35 and younger, 80% wish that work tech could keep up with personal tech. Finally, 64% disagreed with the statement: .it takes me longer to get used to new technology at work than to the new technology in my personal life..</p>
+
+<p>We need a comprehensive BYOD program. Not only in government, but in industry as well. The separation of work life and home life is now much harder than ever before. And there are good solutions coming from vendors like VMware and Citrix. Solutions with a dropbox-like product, except more secure and managed by IT. Solutions like single sign on to your virtual desktop as well as your SaaS applications. And solutions that let work manage the work applications on your personal device without intruding on your personal applications /data/ life. We are beta testing some of these in our lab and the results are very promising.</p>
+
+<p>Lastly, we have been promised a telework initiative that makes sense for a long time now. I heard this week that the cost to provide a desk for a Federal worker is around $14,000 per year. At that cost, we can all justify some of our workers teleworking on a very regular basis!</p>
+
+<p>Thanks for reading!</p>
+
+<p>Follow me on twitter: @GTSI_CTO</p>]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[FedRamp to ensure Cloud Security]]></title>
+    <link href="/2012/06/20/FedRAMP-to-Ensure-Cloud-Security.html"/>
+    <updated>2012-06-20T00:00:00-04:00</updated>
+    <id>/2012/06/20/FedRAMP-to-Ensure-Cloud-Security</id>
+    <content type="html"><![CDATA[<p>Last week, the Federal Risk and Authorization Management Program (FedRAMP) office started taking applications from Cloud Service Providers (CSPs) who want to attain security accreditations. This is the next step in a process that many of us have been following for the past 18 months. But what does this mean?</p>
+
+<p>According to the FedRAMP website (found at http://www.gsa.gov/portal/category/102371):</p>
+
+<p>.The FedRAMP assessment process is initiated by agencies or CSPs beginning a security authorization using the FedRAMP requirements which are FISMA compliant and based on the NIST 800-53 rev3 and initiating work with the FedRAMP PMO..</p>
+
+<p>In reality this is a simple three-step process:</p>
+
+<p>CSPs can apply for the FedRAMP security accreditation by filling out an application that documents their security practices, and submitting it to the JAB (Joint Authorization Board). A 3PAO (Third Party Assessment Organization) is hired by the CSP to validate and test that these security controls are in place and adequate. After these requirements are met, documented and submitted to FedRAMP, the JAB grants a provisional ATO (Authority to Operate). Once an authorization is granted, ongoing assessment and authorization activities must be maintained (by the 3PAO) in order to keep the security authorization. The FedRAMP office is really doing a great job of standardizing the security requirements of CSPs (both commercial and government operated, by the way). This process will better assist government agencies in their bid to migrate various services to all types of Cloud providers . meaning that your agency will not have to .reinvent the wheel. when it comes to ensuring security requirements are met. Maybe even more importantly it means that a process of continual monitoring and improvement is in place so you can feel assured that your data is safe with your chosen provider!</p>
+
+<p>Thanks for reading.</p>
+
+<p>Follow me on twitter @GTSI_CTO</p>]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Faa Moving To 21st Century]]></title>
+    <link href="/2012/06/06/FAA-moving-to-21st-Century.html"/>
+    <updated>2012-06-06T00:00:00-04:00</updated>
+    <id>/2012/06/06/FAA-moving-to-21st-Century</id>
+    <content type="html"><![CDATA[<p>Last week it was announced that the team of CSC and Microsoft won the award to migrate all of the Federal Aviation Administration.s (FAA) email to the Microsoft SaaS Cloud using Office 365. But that wasn.t all that was in the announcement. As part of the federal government.s new .Shared Services. policy, it was announced that all of the Department of Transportation (including its 12 other agencies) will also be able to migrate their email as part of this contract.</p>
+
+<p>First, I would like to congratulate the FAA. This is a great example of a federal agency that has taken the initiative to make substantial cost savings while improving services to its user community through the use of the Cloud. Taking this a step further, with the Office of Management and Budget (OMB) now requiring agencies to submit data for the new shared services initiatives, the FAA has outpaced the rest of the government with a real shared services approach to email in the Cloud.</p>
+
+<p>And, let me also congratulate the contract winners. Great job on the win and I wish you success in the implementation phase of the contract. I cannot wait to see the cost savings that come out of this procurement when the transition is complete.</p>
+
+<p>Today I am celebrating. Not because GTSI received another contract award, but because the FAA is leading the charge towards the SaaS Cloud model for the entire federal government. To the many folks at the FAA that I have had the privilege to work with over the last several years: congratulations. Job well done!</p>
+
+<p>Thanks for reading!</p>
+
+<p>Follow me on Twitter @GTSI_CTO</p>]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Watch Out! Citrix Redefines the Cloud Broker]]></title>
+    <link href="/2012/05/23/Watch-Out-Citrix-Redefines-Cloud-Broker.html"/>
+    <updated>2012-05-23T00:00:00-04:00</updated>
+    <id>/2012/05/23/Watch-Out-Citrix-Redefines-Cloud-Broker</id>
+    <content type="html"><![CDATA[<p>Watch Out! Citrix Redefines the Cloud Broker</p>
+
+<p>Last week I attended the Citrix Synergy conference in San Francisco, CA at the Moscone Center. As usual, Citrix announced many new products, feature sets and new acquisitions. A complete recap of the event and all of the announcements can be found here: http://www.datacenterknowledge.com/archives/2012/05/11/citrix-unveils-cloudplatform-at-synergy-2012/.</p>
+
+<p>For me, the highlight of the conference was the announcement of the Citrix Cloud Portal. Many of my colleagues around the beltway have been saying that they want to be a .Cloud Broker,. but what does this mean? As far as I can tell from talking to my peers, a Cloud Broker allows the government to procure a multitude of public cloud services by utilizing a purchase order and a yet-to-be-developed portal. While it sounds great, this model is unrealistic for two reasons:</p>
+
+<p>This would mean that the reseller would basically need to have a relationship with every public IaaS, PaaS and SaaS provider out there. Miss one and the entire concept falls apart. This concept does not take into account two very important items: an agency.s private cloud and single sign-on functionality. Unless the agency gives the reseller or integrator all of their username and password data, which I see as improbable at best, the Cloud Broker model turns into an ordering function and nothing more. But Citrix really nailed it. In their schema, the Cloud Portal resides within the agency.s firewall on top of their private cloud. It allows the agency IT department to be the Cloud Broker for their users. This new technology supports access to many of the leading public cloud providers (IaaS, SaaS and PaaS) that an agency would use including storage from providers such as Amazon Web Services (AWS), Box.com, Dropbox or the new offering from Citrix, Sharefile. It also manages a complete single sign-on environment for all of these cloud services. But that.s not all. Here are two additional reasons why I love this technology:</p>
+
+<p>It even works with provisioned applications internal or external to an agency.s environment so it provides a storefront at the same time. It works with the ubiquitous Citrix Receiver . their ICA client which is available for every major mobile device out there . so now the user can access all of this from a tablet, empowering the mobile workforce.</p>
+
+<p>This is truly great stuff from Citrix.</p>
+
+<p>Thanks for reading and for more information on these new offerings, you can contact me at or at jim.sweeney@gtsi.com.</p>
+
+<p>Follow me on twitter at @GTSI_CTO.</p>]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Will You Be in the Cloud by New Year's Day?]]></title>
+    <link href="/2012/05/09/Will-You-Be-in-the-Cloud-by-New-Years-Day%3F.html"/>
+    <updated>2012-05-09T00:00:00-04:00</updated>
+    <id>/2012/05/09/Will-You-Be-in-the-Cloud-by-New-Years-Day?</id>
+    <content type="html"><![CDATA[<p>Will you be in the Cloud by New Year.s Day?</p>
+
+<p>Recently, Rob Wolborsky, CTO for SPAWAR, was interviewed by Defense Systems magazine (read article: http://defensesystems.com/articles/2012/03/28/chief-view-rob-wolborsky-navy-data-center-consolidation.aspx?s=ds_160412). In the interview, Rob shared several somewhat startling facts:</p>
+
+<p>There are over 120 data centers that support Navy and Marines, but there is no existing reliable measure of what each of those centers costs. SPAWAR has put together ten working teams to undertake a substantial effort to understand what each center is costing them, and why, so they can determine how to consolidate appropriately. They have completed just a third of the assessments so far. Based on what they.ve found, they estimate they can close nearly 60 (50%) of the data centers without decreasing services, with close to 20 closing in just the first year. The US Navy is a large organization and this program is a major undertaking. But it leads me to a couple of interesting questions which apply equally to an agency with just a handful of data centers. To be on track to take advantage of the Cloud by year-end 2012, you need to be able to answer yes to every question. Can you?</p>
+
+<p>Do you know what each of your data centers costs you today? Further, do you have an understanding of the individual cost to run each application within each data center? Are you nearly finished with consolidating and virtualizing the Operating Systems, System Images, Databases and the like that your data centers currently operate, in preparation for full-scale data center consolidation? Have you identified the final list of which applications will move to the Cloud, to provide more cost-effective, available and reliable service now, and in preparation for moving your remaining data-center-based applications into the smallest serviceable footprint in the future? These are questions that each agency must be able to answer. Pete Tseronis has urged federal government agencies to come up with more than the required three Cloud candidates by the end of the year. But where do you start? I recommend starting with:</p>
+
+<p>Find the data center that has the lowest operating costs (square foot x utilities x servers) Profile your applications. Rank your applications based on criticality, usage (daily, monthly, and seasonal surge), need for redundancy, and the level of importance within your agency. Structure a plan to address the required three (if not more) Cloud requirements. GTSI has an established methodology for migrating applications to the Cloud; we call it .GCAM. or the GTSI Cloud Assurance Model. The Model has seven discrete steps:</p>
+
+<p>Identify the costs to run a particular application as it is configured and running today, versus the cost to run that application in the Cloud Quantify the performance of that application as it is configured today Identify the policies, procedures and governance changes that will be required if this application is migrated to the Cloud Migrate the application Implement the policy, procedure and governance changes identified in (3) above Measure the performance to ensure it is better than (2) above Provide proof of the cost reduction goal as identified in (1) above This model can provide structure to simplify execution of such a large project, while helping to migrate applications to the Cloud successfully and demonstrate that success in real terms.</p>
+
+<p>I still maintain that while data center consolidation an important component of an agency.s cost management strategy, it will not completely address the planned budget cuts on the horizon. Identifying applications that can move to the Cloud will be a necessary step to further reduce your server footprint. There may be some applications which cannot and should not be moved to the Cloud, but moving what you can will avoid greater hardships when budgets shrink in the coming years.</p>
+
+<p>As always, thanks for reading.</p>
+
+<p>Follow me on twitter at @GTSI_CTO</p>]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Which type of Cloud is Right for Me?]]></title>
+    <link href="/2012/03/01/which-type-of-cloud-is-right-for-me.html"/>
+    <updated>2012-03-01T00:00:00-05:00</updated>
+    <id>/2012/03/01/which-type-of-cloud-is-right-for-me</id>
+    <content type="html"><![CDATA[<p>This is a question that I hear almost daily from potential customers. But the question is really an indication that the person asking the question doesn.t understand the paradigm shift that is occurring in IT today. By that I mean that Cloud is just another way of delivering a service that meets a set of business requirements. It is one of the many options that IT needs to evaluate based on the requirements of the business or organizational unit, the promised SLA&#8217;s of the service, and the costs of that service.</p>
+
+<p>This is how it is supposed to work:</p>
+
+<p>A business or organizational unit desires a service. After meeting with the business unit managers, IT agrees to a set of requirements for the service. IT then goes back and evaluates how to best deliver that service and where cloud (or rather one of the many types of cloud) is an option to be considered.</p>
+
+<p>Let me give you an example. At GTSI, we use salesforce.com for our CRM system and it&#8217;s a great system; one of the best that I have seen out there. But assume for a second that we had nothing. The sales management team decides that we need something to keep track of our customers and their related information, leads, quotes, and orders.<br />If we could be a fly on the wall for the meeting between IT and sales management, I believe the conversation would go something like this:</p>
+
+<p>IT: &#8220;Are there any other requirements?&#8221;</p>
+
+<p>Sales: &#8220;Well sure. We would like some reporting capability so we can track how well an individual sales rep is doing, how many times they are meeting with their customer, etc. Oh, and we would like the sales reps to be able to input data from wherever they happen to be at the moment, be that at a desk at corporate headquarters, at their home, or even at a coffee shop down the street.&#8221;</p>
+
+<p>IT: &#8220;OK. What else?&#8221;</p>
+
+<p>Sales: &#8220;How about a nice way to tie all of our quotes to a given customer record? And maybe even a way to send emails featuring this month&#8217;s specials to our customers?&#8221;</p>
+
+<p>IT: &#8220;Great. We think we have a few ways to accomplish what you are looking for. We&#8217;ll go back and figure something out.&#8221;</p>
+
+<p>Now IT huddles. One idea is a simple spreadsheet which would meet most of the requirements but not all, and some not even very well. Someone in IT proposes ACT or some other contact management tool that runs on a laptop. It meets pretty much all of the requirements, and it&#8217;s inexpensively priced. They also consider hosting an open source CRM tool, like say Sugar CRM, in our datacenter. They figure the costs and look at the SLA&#8217;s that they believe they can meet. They look at the requirements and judge how well this solution works. They also evaluate the same open source solution hosted in a public IaaS Cloud. It meets the requirements and the SLA&#8217;s of the cloud vendor are good, but IT would then have something additional to patch and update, etc. Finally they look at SaaS Cloud and determine among the many vendors that salesforce.com best meets the requirements, meets or exceeds the required SLA&#8217;s, and is priced attractively. Which one do they choose? That is really immaterial to our example.</p>
+
+<p>The point here is that cloud is just one of the many ways to deliver a service to the business or organization. And it should be evaluated along with all of the other options to see which best meets the needs of the business unit. But it is done so at the service level, not the organization level. So we should stop asking the question, &#8220;Which Cloud is right for me?&#8221; and instead start asking the question, &#8220;What is the best way for me to deliver this service to my organization?&#8221; In Cloud there is no &#8220;one right answer&#8221;.</p>
+
+<p>Thanks for reading.</p>
+
+<p><em>Follow me on twitter at @GTSI_CTO</em></p>]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[TechAmerica Foundation SLG Cloud Commission releases Report]]></title>
+    <link href="/2012/02/16/TechAmerica-Foundation-SLG-Cloud-Commission-releases-Report.html"/>
+    <updated>2012-02-16T00:00:00-05:00</updated>
+    <id>/2012/02/16/TechAmerica-Foundation-SLG-Cloud-Commission-releases-Report</id>
+    <content type="html"><![CDATA[<p>Today the TechAmerica SLG Cloud Commission (SLG-CC) is releasing their final report on Cloud for State and Local Government. The commission&#8217;s goal was to further the adoption of cloud by State and Local governments and to educate them on the benefits of cloud and how to procure it. This commission is a direct followup from the Cloud comission that TechAmerica formed at the request of former CIO Vivek Kundra whose focus was Cloud in the Public Sector. The SLG Cloud Commission will specifically address some of the major roadblocks with cloud access and deployment that are unique to states and localities -including procurement practices- and deliver recommendations for surmounting barriers to cloud in their agencies.</p>
+
+<p>I was honored to serve on both of these commissions as a deputy to Sterling Phillips, GTSI.s CEO, on the Federal commission and as a commissioner with Prem Jadhwani as my deputy for the State and Local Commission.</p>
+
+<p>You can just imagine how much work goes into a commission like this. Not only did they create a great report, but this commission undertook the ambitious goal of deploying a web site of case studies where other state and local governments could go to find information about other governments and how they are using cloud in their own agencies. This announcement is the result of great work by a whole host of people chaired by Tarkan Maner, President and CEO of Wyse Technology, Daniel Kent the Public Sector CTO for Cisco, and David L. Cohn, Ph.D., Program Director, Smarter Cloud, IBM T.J. Watson Research Center. You can find a full list of all the companies that participated at http://www.techamericafoundation.org/cloud2-slg-commissioners .</p>
+
+<p>The report itself is amazing, but to me, the most important part of the commission was the creation of the web site. This is a place where state and local customers can go to see some of the most innovative ways that their fellow public sector users have implemented cloud to their benefit. I have the same goal for my forthcoming book on Cloud in the Public Sector; not only to educate but to show through case studies and examples where others in the public sector have already taken advantage of the various forms of cloud available today.</p>
+
+<p>The link for the <a href='http://www.cloud4slg.org/'>case study portal</a></p>
+
+<p>If you would like to watch the live feed of the report release <a href='http://www.ustream.tv/channel/slg-cc'>please join us</a></p>
+
+<p>As always, thanks for reading. <em>Follow me on twitter at @GTSICTO</em></p>]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[A QUick Review of the PaaS Cloud]]></title>
+    <link href="/2012/02/02/A-Quick-Review-of-the-PaaS-Cloud.html"/>
+    <updated>2012-02-02T00:00:00-05:00</updated>
+    <id>/2012/02/02/A-Quick-Review-of-the-PaaS-Cloud</id>
+    <content type="html"><![CDATA[<p>I recently created the latest chapter on the book I am writing about Cloud Computing in the Public Sector. It was the chapter I was dreading the most because it was on the PaaS (platform as a service) public cloud. This is perhaps the least understood, and certainly from all indications I have, the least used in the public sector at this time.</p>
+
+<p>Platform as a Service clouds allow you to rapidly develop and scale web applications in the cloud. You don.t have the control over the existing infrastructure that you do in an IaaS cloud, where you can control the OS, the patching of that OS and your application, but what you get is rapid, easy development. As another example of this simpleness, you don&#8217;t get to specify the parameters that you will use to scale up and scale down the number of web servers used to deliver your application as you do in the AWS cloud. What you get is a simple, easy to use development platform with an integrated development environment and one touch <em>upload to the cloud</em> features.</p>
+
+<p>Some of the major players in this market are:</p>
+
+<p><strong>Microsoft</strong>. Yep. The same folks that make Windows and Office 365. With their Windows Azure product, and their existing SQL development tools, they have a nice offering which works very well.</p>
+
+<p><strong>Google</strong>. We all know the Google browser and some of you may know Google from their Software as a Service offering Google Apps. But with Google App Engine, you can rapidly develop web applications, test them with a built in emulator that comes as part of the development environment, and with one click, upload the application to the Google cloud.</p>
+
+<p><strong>VMware</strong>. What did you say? VMware is a virtualization company that only has a private or hybrid IaaS cloud offering, right? Well they also announced their PaaS offering about 9 months ago. It has support for a lot of different languages and databases. It even has an open source component and is becoming a major player in this aspect of cloud.</p>
+
+<p>These are two of the critical factors in choosing a PaaS providers: What language do you want to use and what database do you want to use? When it comes to languages and DB support, it appears that no two vendors are alike.</p>
+
+<p>So how did the chapter go? Great, thanks to a friend of mine who is a developer. He came over one day and in just a few minutes we had downloaded the Google App Enginer IDE (Integrated Development Environment), imported some sample code, tested it on the included simulator and uploaded it (<em>with one key click</em>) to the Google cloud. Our experience on the Windows Azure environment was very much the same. Download a few development tools, and you are ready to begin development and testing.</p>
+
+<p>Again, for rapid development of scalable web applications without having to worry about the cost and complexity of buying and managing the underlying hardware and software and provisioning hosting capabilities, PaaS should be one of the options considered!</p>
+
+<p>As always, thanks for reading.</p>
+
+<p><em>Follow me on twitter at @GTSICTO</em></p>]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[AWS and Security]]></title>
+    <link href="/2012/01/18/AWS-and-Security.html"/>
+    <updated>2012-01-18T00:00:00-05:00</updated>
+    <id>/2012/01/18/AWS-and-Security</id>
+    <content type="html"><![CDATA[<p>Recently an article came to light about a group of German researchers that found <strong>Massive Security Flaws</strong> in the Amazon Cloud (full article can be found here). This was a well done study that I am familiar with and I am sure the findings are pretty accurate. After all, how many of our users would patch their machines regularly, backup their critical data on a regular basis, and change their passwords on a frequent schedule without us in IT sending them reminders or enforcing some other harsher policy which necessitates that they follow a schedule for these things? A darned few, in my experience.</p>
+
+<p>The same is true here. The good news: Anyone can give a credit card to Amazon and have a virtual server in a few minutes. But Amazon clearly states that they take care of physical security, hardware, network, storage, and virtualization layer <a href='http://aws.amazon.com/articles/1697?_encoding=UTF8&amp;jiveRedirect=1'>details can be found here</a>. The users are responsible for passwords and credentials, OS, and application patches and the like. The bad news: Most users don&#8217;t do all the things they need to do to protect themselves.</p>
+
+<p>Therefore, I just don&#8217;t see the big deal. You may be able to hack into those virtual machines because of lax security on the part of the user, but if I take all the precautions that I should (like patching of the OS and application, proper credential security policies, and encryption of data, etc.), then it will be much harder to hack into mine.</p>
+
+<p>I liken this to SSID and other security issues around wireless. As a best practice, my home SSID broadcast is disabled. I need your MAC address before letting you onto my network (even if you do figure out the SSID) and all traffic is encrypted with a password that changes on a regular basis. But around my home and office are Network Access Points with none of these simple security policies implemented that are wide open to anyone. Which one do you think is more secure? Which one(s) do you think hackers will try to exploit first?</p>
+
+<p>The researchers are going to present their finding in March. To me, this report tells us what we already know; use best practices when putting applications and data in the public cloud and you&#8217;ll be just fine!</p>
+
+<p>Thanks for reading.</p>
+
+<p><em>Follow me on twitter at @GTSI_CTO</em></p>]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Getting the Hybrid Cloud Right]]></title>
+    <link href="/2011/12/20/Getting-The-Hybrid-Cloud-Right.html"/>
+    <updated>2011-12-20T00:00:00-05:00</updated>
+    <id>/2011/12/20/Getting-The-Hybrid-Cloud-Right</id>
+    <content type="html"><![CDATA[<p>As many of you may know, I am writing a case study book highlighting some of the great ways that users in the public sector are taking advantage of cloud computing. I hope that this book will help the many of you who are <em>on the fence</em> about cloud to see the ways that others are realizing the benefits of cloud and spur you into action!</p>
+
+<p>One of the many goals of the book is to clear up the misconceptions and misunderstandings about the various cloud options that are available to you today. The book will also address who the major players are for each cloud model and the issues surrounding each of these models, not the least of which is the security issue.</p>
+
+<p>I am learning many fascinating things as I write this book and am gaining great in-depth knowledge about the subject matter.<br />One of the greatest benefits of the writing process has been the great people I get to meet along the way. For example, I was fortunate enough to conduct an interview last week with Anil Karmel. While there are several folks in the public sector that are implementing hybrid cloud correctly, saving money, and gaining the agility and flexibility that this architecture promises, Anil has already done it once and is now beginning to implement this architecture agency-wide. So why is this important for government? Here is a public sector guy who really <strong>gets</strong> cloud computing and does not just talk about it. He has actually implemented it. Not just once, but is moving on to implement it several times. And he has the numbers to back it up.</p>
+
+<p>For anyone totally lost at this point, let;s review. Remember that a hybrid cloud is a combination of an on-premise private or community cloud (called a cloud cell) and a public cloud (another cell), all managed as one large cloud implementation.</p>
+
+<p>Anil started by virtualizing his then-current infrastructure using VMware. Here are some of his amazing results:</p>
+
+<ul>
+<li>400 total VM.s running in a 13 Server VMware DRS/HA cluster with an average resource utilization of 85%</li>
+
+<li>30:1 consolidation ratio</li>
+
+<li>105 physical servers decommissioned</li>
+
+<li>3 data centers retired</li>
+
+<li>Approximately 1.9 million dollars in electrical savings</li>
+</ul>
+
+<p>Then he moved on to create the hybrid cloud environment, using his internal cloud and the <a href='http://www.vmware.com/solutions/cloud-computing'>vCloud</a> implementation of the Public Cloud Provider, <a href='http://www.terremark.com/'>Terremark</a>. Here are some of the results:</p>
+
+<ul>
+<li>Almost 2,000,000 Kwh saved per year. (It takes approx 8,900 Kwh to power one average home, so the savings would power approx 225 homes!)</li>
+
+<li>Reduced average provisioning time from 30 days to 30 minutes!</li>
+</ul>
+
+<p>Anil said that although they were not fully virtualized, they had designed a system <strong>for the 80%</strong>. In other words, while this system doesn&#8217;t cover everyone&#8217;s needs at LANL, it meets the needs of 80% of the users and for them, that was a huge success. Anil has won several awards for his work. While you can Google him, here is one of the many articles you can read about him and his hybrid Cloud implementation at the <a href='http://www.prnewswire.com/news-releases/los-alamos-national-laboratory-wins-national-cybersecurity-innovation-award-for-leap-forward-in-cloud-security-132963138.html'>Los Alamos National Labs</a>. Anil was also the recipient of the 2009 NNSA Best in Class Pollution Prevention Award for Server Virtualization.</p>
+
+<p>Anil believes it is critical to engage and win support from key stakeholders before embarking on a major consolidation or cloud computing initiative. Anil and his team focused hard on auditing their legacy environment and mapping the chargeback relationships between computing resources and the business customers who foot the bill. Anil firmly believes that in order to really change things, you need to show your customers how they can get better service at less cost and more importantly, how that applies not just at the installation level, but to their program and budget.</p>
+
+<p>Anil does get a chance to speak on cloud now and again. If you get a chance to be in the audience and are considering cloud for your agency, I recommend that you make it a point to be there! After all, if you follow in his footsteps, you will be following a true innovator!</p>
+
+<p>Thanks for reading.</p>
+
+<p><em>Follow me on twitter at @GTSI_CTO</em></p>]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[A Good Definition of Cloud]]></title>
+    <link href="/2011/11/29/A-Good-Definition-of-Cloud.html"/>
+    <updated>2011-11-29T00:00:00-05:00</updated>
+    <id>/2011/11/29/A-Good-Definition-of-Cloud</id>
+    <content type="html"><![CDATA[<p>I just read a post on another blog that spoke about the definition of cloud being <em>an application-centric approach to IT</em>. I was really floored by how much I think this definition really misses the mark. And that got me thinking. What is a good definition of cloud? As I did my research I came across this article at Cloud Advocates that claims there are 27 different definitions for cloud computing! Yikes! If we are all going to understand cloud and receive maximum benefit from the cloud, shouldn&#8217;t we all agree on the same definition? At least that would be a good starting point for further exploration. Perhaps as a starting point we should look at the The National Institute of Standards version, which they released last month:</p>
+
+<blockquote>
+<p>Cloud computing is a model for enabling ubiquitous, convenient, on-demand network access to a shared pool of configurable computing resources (e.g., networks, servers, storage, applications and services) that can be rapidly provisioned and released with minimal management effort or service provider interaction.</p>
+</blockquote>
+
+<p>I have really come to like this definition. The folks at NIST have once again hit the nail on the head. It handles IaaS (servers, storage and networks), as well as PaaS and SaaS clouds (applications and services). It is also accurate and appropriate for public, private, hybrid and even community clouds. In fact, I cannot think of a single use-case for cloud that this definition does not cover.</p>
+
+<p>Back to the <em>application-centric approach to IT</em> definition. Applications are in fact a part of cloud. That is true. But, if we are going to shorten the definition of cloud down to a couple of words, shouldn&#8217;t the word <em>application</em> be <em>services</em>? After all, Salesforce and other PaaS clouds are many applications but ordered as one <em>service</em>. And if IT just presents applications to users, how would users know how to put them all together into a <em>service</em>? For example, would I (as a user) order the <em>exchange</em> application only to find out that I needed to order DNS, DHCP and maybe even a client too? No. I would or should order the <em>email service</em> which includes all the applications and interfaces necessary to get me my email, bundled into one service that meets or exceeds my business needs.</p>
+
+<p>And how does this short definition handle something like PaaS clouds, which include editors, compilers, versioning systems, etc? What about something like Amazon Mechanical Turk from AWS (which really isn&#8217;t an application at all, but is in fact, covered by the NIST definition).</p>
+
+<p>I prefer to think of cloud as a <em>service-centric operations model</em>. where IT working in conjunction with business users defines and appropriately sources services that meet the business needs of its users, and then makes them available to users on demand in a pay-per-use model. But let&#8217;s face it, this definition is not as elegant or even as accurate as the NIST definition. So when I have more than 10 seconds in front of a customer, I&#8217;m going to use the NIST definition. In my humble opinion it&#8217;s the one we all should be using. After all, a common understanding of the subject we are talking about is really the only way to progress towards understanding the benfits, the use cases and the best migration path towards cloud.</p>
+
+<p>Thanks for reading</p>
+
+<p><em>Follow me on twitter at @GTSI_CTO</em></p>]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Adding SPARC to the Cloud]]></title>
+    <link href="/2011/11/04/Adding-SPARC-to-the-Cloud.html"/>
+    <updated>2011-11-04T00:00:00-04:00</updated>
+    <id>/2011/11/04/Adding-SPARC-to-the-Cloud</id>
+    <content type="html"><![CDATA[<p>I recently attended the annual OpenWorld conference in San Francisco. As usual there were lots of announcements for new products, new versions of products and . since the SUN acquisition . new chipsets and other hardware releases. But perhaps the biggest of all of those announcements was the one concerning cloud. The announcement was just this: The Release of Oracle Public Cloud. What, you ask? ORACLE is now in the cloud business? Isn&#8217;t that just another hardware vendor (like HP, IBM and Dell) announcing they have a cloud to compete with Google, Amazon and the like? Not really. In fact, there are a couple of significant differences. Here is why this is really important to us in the public sector. This cloud runs both SPARC and x86 workloads. This is something that not many other cloud providers can claim. While ORACLE was a little short on details, we do know this much:</p>
+
+<p><strong>You will be able to run all of your existing Fusion applications, including CRM and HCM, whether they be SPARC or x86 based workloads.</strong></p>
+
+<p>What this means for us in the public sector, who still run a lot of SPARC workloads, is that there is an alternative to the VMWare mantra which for the last few years has been telling you to convert those workloads to X86 Linux and virtualize them. Now you have a choice. Which path is right for you? Well, that depends on a lot of things.<br />A complete discussion is certainly beyond the scope of a blog entry, so I&#8217;ll suffice to say that the important point here is that you now have a choice. The ORACLE offering even comes with a secure collaboration tool for secure social networking.</p>
+
+<p>The other big piece of this puzzle is that you can develop java apps with ORACLE DB&#8217;s in this environment. And yes, you can do so on either SPARC or x86. Now we have a true Platform as a Service (PaaS) development environment in a public cloud not just for x86, which you can get from Amazon Web Services or others, but for the SPARC Solaris platform that many of us have used and loved for years.</p>
+
+<p>While admittedly this announcement was a little short on details, as they sometimes are when you make many of your big announcements at your annual convention, the <a href='http://cloud.oracle.com'>overview</a> looks promising.<br />All I can say is stay tuned. A serious alternative to the VMware convert-to-Linux-and-virtualize story looks like it might just be unfolding before our very eyes. Maybe Oracle did indeed add some SPARC to the cloud.</p>
+
+<p>Thanks for reading.</p>
+
+<p><em>Follow me on twitter at @GTSI_CTO</em></p>]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[New Amazon announcement and the future of government mobility]]></title>
+    <link href="/2011/11/01/New-Amazon-Announcement-and-the-future-of-governmnet-mobility.html"/>
+    <updated>2011-11-01T00:00:00-04:00</updated>
+    <id>/2011/11/01/New-Amazon-Announcement-and-the-future-of-governmnet-mobility</id>
+    <content type="html"><![CDATA[<p><img alt='' src='https://s3.amazonaws.com/jnswebpage/blog_images/Amazon-kindle-fire-tablet-cheap23-300x225.jpg' /></p>
+
+<p>A much heralded, recent new product announcement got (and is getting) a lot of press and speculation. I am talking about the launch of the new Amazon Kindle line. But what is so exciting? After all, the Kindle is just a book reader and is no competition for other devices from Samsung, Cisco and many others, including the one I am writing this entry on, the IPAD. Right?</p>
+
+<p>There is one big difference here. Amazon has something to complement this seemingly simple product: They have a cloud (<em>and a pretty good one at that</em>). How are these two items related? Just like desktop virtualization moves the processing of applications (and games, animations and other applications that have heavy resource requirements) to the data center and uses the end user device primarily as a display device, the Amazon Cloud could perform these calculations, charging the Kindle owner only for the resources they need, and then use the Kindle for the display device.</p>
+
+<p>So what makes this important for all of us working and supporting the public sector? According to the latest Gartner Top 10 List for 2012, the top two IT initiatives for the public sector are <strong>Media Tablets and Beyond</strong> and <strong>Mobile-Centric Applications and Interfaces</strong>. They are going to be the two most important technology initiatives for us in 2012 and the years that follow.</p>
+
+<p>That intersection of ultra-portable tablets and mobile-centric applications meshes with what Jeff Bezos (the dynamic CEO of Amazon) has said in recent interviews, that the two technologies will be combined in the new Kindle, with the Silk browser that ships with the Fire teaming with the Amazon Cloud to pre-render and thus speed up the delivery of web pages to the device.</p>
+
+<p>But the possibilities go even further than that. INTEL already has an interesting technology that they have developed to clone the OS/applications of the end user device in the cloud. It&#8217;s called CloudClone (appropriately enough) and it&#8217;s smart enough to decide which processing should be done on the client device and which needs to be done in the cloud. I&#8217;m not just talking pre-processing the browser here, but cloning the entire OS and application layers so that users with inexpensive, light, mobile devices, even though they pale in comparison to today&#8217;s laptops from a processor and memory standpoint, could have virtually unlimited processing power for the most intense applications imaginable. All that is needed is the ever-more-reliable and available network connection. Can you imagine using 1024 compute instances to calculate a really heavy calculation and then releasing all but a few of those instances, using the rest to display the results in pre-rendered 3D on the Kindle, while at the same time releasing all of the remaining compute instances? There are some real challenges moving forward but thinking of the many variations is exciting.</p>
+
+<p>Am I ditching my IPAD in favor of a Kindle immediately? Of course not. But it will be very interesting to see what develops with Amazon and their new offering; interesting enough that I will probably invest in a new Kindle in pretty short order. As I ready this blog post, I see an article that Amazon has struck a deal with Disney to stream their content. <a href='http://finance.yahoo.com/news/Disney-Pens-Licensing-Deals-wscheats-4258741656.html?x=0'>You can see the article here</a>. To me, the possibilities are endless.</p>
+
+<p>Thanks for reading. <em>Follow me on twitter at @GTSI_CTO</em></p>]]></content>
+  </entry>
+  
+</feed>
