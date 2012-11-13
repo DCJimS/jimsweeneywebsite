@@ -1,7 +1,8 @@
 ---
 layout: post
-title: "Which type of Cloud is Right for Me?"
+title: "Cloud CRM has taken over Business.  Will Government follow?"
 ---
+
 
 Cloud CRM has Taken Over Business, Will Government Follow?
 
@@ -20,5 +21,6 @@ My recommendation is that OMB take a tough stance on these agencies and enforces
 
 Thanks for reading.
 
-*Follow me on twitter at @GTSI_CTO*
+*Follow me on twitter at @DCJimS*
+
 

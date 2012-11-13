@@ -57,4 +57,4 @@ be following a true innovator!
 
 Thanks for reading.  
 
-*Follow me on twitter at @GTSI_CTO*
+*Follow me on twitter at @DCJimS*

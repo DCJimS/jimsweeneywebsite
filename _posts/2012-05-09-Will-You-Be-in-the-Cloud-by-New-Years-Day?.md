@@ -37,5 +37,5 @@ I still maintain that while data center consolidation an important component of 
 
 As always, thanks for reading.
 
-Follow me on twitter at @GTSI_CTO
+*Follow me on twitter at @DCJimS*
 

@@ -21,5 +21,5 @@ Lastly, we have been promised a telework initiative that makes sense for a long 
 
 Thanks for reading!
 
-Follow me on twitter: @GTSI_CTO
+*Follow me on twitter: @DCJimS*
 

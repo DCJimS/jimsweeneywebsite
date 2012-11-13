@@ -8,4 +8,4 @@ Today I am celebrating.  Not because GTSI received another contract award, but b
 
 Thanks for reading!
 
-Follow me on Twitter @GTSI_CTO
+*Follow me on Twitter @DCJimS*

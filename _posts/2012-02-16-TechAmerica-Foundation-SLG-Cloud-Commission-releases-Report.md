@@ -36,7 +36,7 @@ The link for the [case study portal](http://www.cloud4slg.org/)
 
 If you would like to watch the live feed of the report release [please join us](http://www.ustream.tv/channel/slg-cc)
 
-As always, thanks for reading. *Follow me on twitter at @GTSICTO*
+As always, thanks for reading. *Follow me on twitter at @DCJimS*
 
 
 

@@ -45,4 +45,4 @@ to see what develops with Amazon and their new offering;  interesting enough tha
 in a new Kindle in pretty short order.  As I ready this blog post, I see an article that Amazon has 
 struck a deal with Disney to stream their content.  [You can see the article here](http://finance.yahoo.com/news/Disney-Pens-Licensing-Deals-wscheats-4258741656.html?x=0).  To me, the possibilities are endless. 
 
-Thanks for reading.  *Follow me on twitter at @GTSI_CTO*
+Thanks for reading.  *Follow me on twitter at @DCJimS*

@@ -24,4 +24,4 @@ Now, before I close, I will tell you that AWS did in fact have trouble with thei
 
 Thanks for reading.  
 
-Follow me on twitter @GTSI_CTO.
+*Follow me on twitter @DCJimS*

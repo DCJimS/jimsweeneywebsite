@@ -31,5 +31,5 @@ practices when putting applications and data in the public cloud and you'll be j
 
 Thanks for reading.
 
-*Follow me on twitter at @GTSI_CTO*
+*Follow me on twitter at @DCJimS*
 

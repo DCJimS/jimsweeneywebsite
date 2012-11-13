@@ -34,4 +34,4 @@ like it might just be unfolding before our very eyes. Maybe Oracle did indeed ad
 
 Thanks for reading.
 
-*Follow me on twitter at @GTSI_CTO*
+*Follow me on twitter at @DCJimS*

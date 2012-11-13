@@ -55,4 +55,4 @@ this service to my organization?" In Cloud there is no "one right answer".
 
 Thanks for reading.
 
-*Follow me on twitter at @GTSI_CTO*
+*Follow me on twitter at @DCJimS*
