@@ -1,11 +1,11 @@
 ---
 layout: post
-title: "Which type of Cloud is Right for Me?" 
+title: "Which type of Cloud is Right for Me" 
 ---
 
 
 This is a question that I hear almost daily from potential customers. But the question is really an indication that 
-the person asking the question doesn.t understand the paradigm shift that is occurring in IT today. By that I mean 
+the person asking the question doesn't understand the paradigm shift that is occurring in IT today. By that I mean 
 that Cloud is just another way of delivering a service that meets a set of business requirements. It is one of the 
 many options that IT needs to evaluate based on the requirements of the business or organizational unit, 
 the promised SLA's of the service, and the costs of that service.

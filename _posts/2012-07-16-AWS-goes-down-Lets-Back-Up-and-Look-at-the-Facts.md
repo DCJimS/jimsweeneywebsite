@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "AWS goes down? Let's back up and look at the facts!"
+title: "AWS goes down Let's back up and look at the facts"
 ---
 
 

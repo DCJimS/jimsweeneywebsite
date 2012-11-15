@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "A QUick Review of the PaaS Cloud"
+title: "A Quick Review of the PaaS Cloud"
 ---
 
 I recently created the latest chapter on the book I am writing about Cloud Computing in the Public Sector.  It was the chapter 

@@ -3,11 +3,12 @@ layout: post
 title: "FedRamp to ensure Cloud Security"
 ---
 
+
 Last week, the Federal Risk and Authorization Management Program (FedRAMP) office started taking applications from Cloud Service Providers (CSPs) who want to attain security accreditations. This is the next step in a process that many of us have been following for the past 18 months.  But what does this mean?
 
 According to the FedRAMP website (found at http://www.gsa.gov/portal/category/102371):
 
-.The FedRAMP assessment process is initiated by agencies or CSPs beginning a security authorization using the FedRAMP requirements which are FISMA compliant and based on the NIST 800-53 rev3 and initiating work with the FedRAMP PMO..
+'The FedRAMP assessment process is initiated by agencies or CSPs beginning a security authorization using the FedRAMP requirements which are FISMA compliant and based on the NIST 800-53 rev3 and initiating work with the FedRAMP PMO'.
 
 In reality this is a simple three-step process:
 

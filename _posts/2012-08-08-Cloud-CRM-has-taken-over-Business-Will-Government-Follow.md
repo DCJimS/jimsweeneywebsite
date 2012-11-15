@@ -1,10 +1,8 @@
 ---
 layout: post
-title: "Cloud CRM has taken over Business.  Will Government follow?"
+title: "Cloud CRM has taken over Business Will Government Follow"
 ---
 
-
-Cloud CRM has Taken Over Business, Will Government Follow?
 
 According to a survey of over 600 organizations issued by Really Simple Systems, 56% of companies are using a Cloud CRM system (compared to 45% this time last year);  72% of respondents claimed to have more confidence generally than a year ago; and 80% of indicated Cloud solutions require less IT support.  Only 15% of respondents (commercial) admitted to still having reservations regarding adoption of Cloud systems, a decrease of 8% from last year.s figures.  What does all of this mean?  The confidence in Cloud solution adoption, at least in the private sector, is clearly on the rise (source: http://www.businesscloud9.com).
 
