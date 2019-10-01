@@ -40,7 +40,7 @@ body{
 	float: left;
 	margin-left: 10px;
 	line-height: 150%;
-	
+
 }
 
 .sitecontent .rightcolumn{
@@ -58,7 +58,7 @@ ul#twitter_update_list{
 	margin-top: 0;
 	padding-top:0 ;
 	margin-left: 5px;
-	
+
 	padding-left:10px;
 }
 
@@ -113,11 +113,11 @@ a {
 	text-transform: uppercase;
 	text-shadow: 1px 1px #fff;
 	font-size: 16px;
-	
+
 }
 
 .intro-block h1 span{
-	color: #900; 
+	color: #900;
 	padding:0; margin: 0;
 	display: block;
 	clear: both;
@@ -132,6 +132,10 @@ a {
 	background: #fff url(../images/cover-bk.png) no-repeat 330px -10px;
 }
 
+.eoc-cover{
+	background: #fff url(../images/enc_of_cloud.png) no-repeat 330px -10px;
+}
+
 .leftcolumn h1{
 	color: #083155;
 	/*background-color: #ccc;
@@ -143,15 +147,9 @@ a {
 	text-shadow: 1px 1px #fff;
 }
 
-
-
 .leftcolumn h2{
 	color: #083155;
-	/*background-color: #ccc;
-	border-bottom: 1px solid #fff;*/
 	height: 20px;
-	/*padding: 6px;
-	margin: 0*/;
 	font-weight: normal;
 	text-transform: uppercase;
 	text-shadow: 1px 1px #fff;
@@ -173,5 +171,3 @@ a {
 	font-style: normal;
 	font-size: 12px;
 }
-
-
