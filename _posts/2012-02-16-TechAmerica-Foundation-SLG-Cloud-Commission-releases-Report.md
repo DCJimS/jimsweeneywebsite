@@ -1,0 +1,42 @@
+---
+layout: post
+title: "TechAmerica Foundation SLG Cloud Commission releases Report" 
+---
+
+Today the TechAmerica SLG Cloud Commission (SLG-CC) is releasing their final report on Cloud 
+for State and Local Government. The commission's goal was to further the adoption of cloud by 
+State and Local governments and to educate them on the benefits of cloud and how to procure it. 
+This commission is a direct followup from the Cloud comission that TechAmerica formed at the 
+request of former CIO Vivek Kundra whose focus was Cloud in the Public Sector. The SLG Cloud 
+Commission will specifically address some of the major roadblocks with cloud access and deployment 
+that are unique to states and localities -including procurement practices- and deliver recommendations 
+for surmounting barriers to cloud in their agencies.
+
+I was honored to serve on both of these commissions as a deputy to Sterling Phillips, GTSI.s CEO, on 
+the Federal commission and as a commissioner with Prem Jadhwani as my deputy for the State and 
+Local Commission.
+
+You can just imagine how much work goes into a commission like this. Not only did they create a 
+great report, but this commission undertook the ambitious goal of deploying a web site of case 
+studies where other state and local governments could go to find information about other governments 
+and how they are using cloud in their own agencies. This announcement is the result of great work 
+by a whole host of people chaired by Tarkan Maner, President and CEO of Wyse Technology, Daniel Kent 
+the Public Sector CTO for Cisco, and David L. Cohn, Ph.D., Program Director, Smarter Cloud, IBM 
+T.J. Watson Research Center. You can find a full list of all the companies that participated at 
+http://www.techamericafoundation.org/cloud2-slg-commissioners .
+
+The report itself is amazing, but to me, the most important part of the commission was the 
+creation of the web site. This is a place where state and local customers can go to see some of the 
+most innovative ways that their fellow public sector users have implemented cloud to their benefit. 
+I have the same goal for my forthcoming book on Cloud in the Public Sector; not only to educate but 
+to show through case studies and examples where others in the public sector have already taken 
+advantage of the various forms of cloud available today.
+
+The link for the [case study portal](http://www.cloud4slg.org/)
+
+If you would like to watch the live feed of the report release [please join us](http://www.ustream.tv/channel/slg-cc)
+
+As always, thanks for reading. *Follow me on twitter at @DCJimS*
+
+
+
