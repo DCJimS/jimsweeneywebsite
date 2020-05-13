@@ -3,6 +3,9 @@ layout: post
 title: "Problems with Startup Funding"
 ---
 
+
+November 14, 2019
+
 I work with a lot of startups.  It is something I enjoy. I love meeting new inventors and see their ideas
 mature and go from concept to prototype to product.  And I’m such a geek that I love 3D printing and C&C’ing
 prototypes, etc.  But I thought it would be useful to discuss a startup I am working with that…for some reason…just
