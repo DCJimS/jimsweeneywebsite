@@ -1,6 +1,8 @@
 ---
 layout: post
 title: "How To Get Your Startup Off the Ground"
+date: 2023-09-30
+categories: startup
 ---
 
 

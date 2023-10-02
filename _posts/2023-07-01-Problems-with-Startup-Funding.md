@@ -1,6 +1,8 @@
 ---
 layout: post
 title: "Problems with Startup Funding"
+date:  2023-07-01
+categories:  startup
 ---
 
 July 1, 2023
