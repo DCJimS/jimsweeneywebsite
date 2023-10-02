@@ -18,7 +18,7 @@ connect with subject matter experts, deeply understand their marketplace and com
 I know that is a mouthful, so let me see if I can break it down for you.  The lean startup introductory course shows you how make a
 hypothesis or two about who your target market segment is and what problems they may have.  Then you go ASK THEM.  Not tell them about
 your product (selling) but ask them what problems they have in their day to day lives (interviewing).  What are their pain points?
-What is their hair-on-fire problems.  You get them to talk to you and they tell you what is keeping them up at night.  Then, after
+What is their hair-on-fire problem? You get them to talk to you and they tell you what is keeping them up at night.  Then, after
 doing 20+ interviews you can begin to see trends and see if your product /idea can solve their pain points (maybe as is, or with some
 modifications).
  
@@ -28,12 +28,12 @@ know, and no one wants your product.
  
 Are you getting the picture?  Stated a different way, companies fail not from a lack of products but from a lack of customers!  (I
 absolutely love this last statement.  It's not mine, but I use it every day in talking to teams).  Anyway, if you want to learn more,
-most states has an ICAP program.  All states have SBDC (Small Busienss Development Center) so I would start there.  If you happen to
-be in Virginia, the George Mason University ICAP program is at https://www.virginiasbdc.org/icap-programs/.
+most states have an ICAP program.  All states have an SBDC (Small Busienss Development Center) so I would start there.  If you happen to
+be in Virginia, the George Mason University ICAP program is at https://www.virginiasbdc.org/icap-programs/. I cannot recommend it highly enough.
  
 BTW - I am so impressed by this program that I joined as a mentor.  I already have 6 companies that I am helping, and I am excited
 about how they are developing.  If you are an entrepreneur, or you are thinking about being an entrepreneur, this is really a program
 that could offer you a lot. It is now so widely accepted that many grant and venture capital folks won’t talk to you until you have
-been through this or a similar program.  Many will ask to speak to your mentor before giving you money!  So, check them out.
+been through this or a similar program.  In fact, many will ask to speak to your mentor before giving you money!  So, check them out.
  
 Until then, thanks for reading. Follow me on twitter at @DCJimS.
